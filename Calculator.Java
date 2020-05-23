@@ -111,7 +111,7 @@ public class Calculator{
                 continue;
             }
             stack.setNumStr(ArrStr);
-            parser.parsing(stack, ComName);
+            parser.process(stack, ComName);
         }
     }
 }
